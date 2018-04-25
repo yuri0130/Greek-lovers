@@ -5,10 +5,21 @@
     <link rel="shortcut icon" href="images/green-olives.png">
     <title>Greek lovers</title>
     <link rel="stylesheet" type="text/css" href="restaurant.css">
-    <link rel="stylesheet" href="flexslider.css" type="text/css" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
     <script src="restaurant.js"></script>
-    <script type="text/javascript" src="js/jquery.flexslider-min.js"></script>
+
+    <script type="text/javascript">
+     $(document ).ready(function() {
+      $('.bxslider').bxSlider({
+        auto: true,
+        infiniteLoop: true,
+       });
+     });
+    </script>
   </head>
 
   <body>
@@ -27,7 +38,7 @@
     </header>
 
    <div class="flexslider">
-    <ul>
+    <ul class="bxslider">
     <li>
      <img src="images/appetizer.jpg" alt="image1" class="active">
     </li>

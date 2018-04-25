@@ -3,6 +3,9 @@ body, html {
   margin: 0;
   font-family: 'Ubuntu', sans-serif;
 }
+ul {
+  padding: 0;
+}
 
 h1 {
   text-align: center;

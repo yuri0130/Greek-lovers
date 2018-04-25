@@ -1,7 +1,4 @@
 $( document ).ready(function() {
-  $(window).load(function(){
-    $('active').flexslider();
-  });
-});
+  // put jquery here
 
-//test
+});
