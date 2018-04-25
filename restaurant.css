@@ -39,8 +39,14 @@ a {
   list-style: none;
 }
 
+.bx-wrapper {
+ -webkit-box-shadow: none;
+ box-shadow: none;
+ border: none;
+ background: #fff;
+}
+
 .active {
   width: 100%;
-  height: 700px;
-  float: left;
+  height: 600px;
 }

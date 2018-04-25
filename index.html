@@ -4,18 +4,22 @@
     <meta charset="utf-8">
     <link rel="shortcut icon" href="images/green-olives.png">
     <title>Greek lovers</title>
-    <link rel="stylesheet" type="text/css" href="restaurant.css">
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
 
     <script src="restaurant.js"></script>
+    <link rel="stylesheet" type="text/css" href="restaurant.css">
 
     <script type="text/javascript">
      $(document ).ready(function() {
       $('.bxslider').bxSlider({
         auto: true,
+        autoStart: true,
+        mode: 'fade',
+        controls: false,
+        pager: false,
         infiniteLoop: true,
        });
      });
@@ -47,6 +51,15 @@
     </li>
     <li>
      <img src="images/buffet.jpg" alt="image3" class="active">
+    </li>
+    <li>
+     <img src="images/asparagus.jpg" alt="image4" class="active">
+    </li>
+    <li>
+     <img src="images/bowl.jpg" alt="image5" class="active">
+    </li>
+    <li>
+     <img src="images/close.jpg" alt="image6" class="active">
     </li>
     </ul>
   </div>
