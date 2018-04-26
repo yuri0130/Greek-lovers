@@ -1,0 +1,52 @@
+.title {
+  font-size: 100px;
+  font-family: 'Gamja Flower', cursive;
+  margin-bottom: 0;
+  color: #3CB371;
+  opacity: 0.7;
+  margin-top: 0;
+}
+
+li {
+  list-style: none;
+}
+
+#menu-items {
+  width: 350px;
+  padding-left: 215px;
+}
+
+
+#menu-items li {
+  padding-bottom: 10px;
+}
+
+h1 {
+  margin-top: 100px;
+  color: red;
+  opacity: 0.7;
+}
+
+#menu-item-list {
+  float:left;
+}
+
+#menu-item {
+  color: #C71585;
+  font-size: 23px;
+  padding-top: 7px;
+}
+
+#menu-item:active {
+  color: gray;
+  opacity: 0.7;
+}
+
+#menu-image {
+  width: 800px;
+  height: 500px;
+  float: right;
+  padding-right: 100px;
+  margin-top: -100px;
+  margin-bottom: 100px
+}
