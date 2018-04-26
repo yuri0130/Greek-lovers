@@ -77,6 +77,23 @@ header li {
   opacity: 0.7;
 }
 
+#locationmaps {
+  display: flex;
+}
+
+#locationmaps p {
+  height: 1vw;
+  width: 27vh;
+  padding-left: 3%;
+  padding-right: 3%;
+}
+
+#locationmaps iframe {
+   padding-top: 20px;
+   padding-right: 200px;
+}
+
+
 footer {
   bottom: 0;
   width: 100%;
