@@ -12,6 +12,8 @@
     <script src="../restaurant.js"></script>
     <link rel="stylesheet" type="text/css" href="../Layout/restaurant.css">
 
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <script type="text/javascript">
      $(document ).ready(function() {
       $('.bxslider').bxSlider({
@@ -101,9 +103,17 @@
   </div>
 
   <div id="reservation">
+    <div id="reservation-container">
+
+    <div class="reservation-header">
     <h1>ONLINE RESERVATION</h1>
+    <a id="modal-close">
+    <i class="fa fa-close" style="font-size:25px"></i>
+ 　　</a>
+    </div>
     <p>Please complete the submission form below to make a reservation!
     </p>
+
     <form>
      <input type="date" name="fname" placeholder="DATE"><br/>
      <input type="time" name="lname" placeholder="TIME"><br/>
@@ -117,8 +127,8 @@
 
      <textarea type="text" name="fname" placeholder="Special your instructions"></textarea>
      <input id="makeareservation" type="submit" value="MAKE RESERVATION">
+    </div>
 
-	 <p><a id="modal-close" class="button-link"><i class="fas fa-times"></i></a></p>
  </div>
 
 

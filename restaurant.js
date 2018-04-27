@@ -3,4 +3,8 @@ $( document ).ready(function() {
   $(".reservations").click(function(){
  $("#reservation").fadeIn("slow");
   });
+
+  $("#modal-close").click(function(){
+    $("#reservation").fadeOut("slow");
+  });
 });
