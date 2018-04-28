@@ -75,6 +75,10 @@ header li {
   margin: auto;
   }
 
+#locations h1 {
+  margin-left: 25%;
+}
+
 .locationcontact h1 {
   padding-top: 32px;
   margin-bottom: 10px;
@@ -82,7 +86,7 @@ header li {
 
 #locationmaps {
   display: flex;
-  margin: auto;
+  margin-left: 25%;
 }
 
 #locationmaps p {
@@ -155,7 +159,7 @@ textarea {
 }
 
 #reservation form {
-  padding-left: 27%;
+  padding-left: 22%;
 }
 
 .reservation-header {
